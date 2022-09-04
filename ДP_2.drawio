@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2022-09-04T18:12:58.999Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.8" etag="M8oUPv4wSjY_xxEZM5EO" type="github"><diagram id="RS8ei5sQHtsMz0RFEjPf">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-04T18:43:33.542Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="ynxdBJHuavR6655Y_MAX" version="20.2.8" type="github">
+  <diagram id="RS8ei5sQHtsMz0RFEjPf" name="Страница 1">
+    <mxGraphModel dx="1186" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nQxW2_KL6_0eO9HDRcDl-15" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="20" width="690" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="nQxW2_KL6_0eO9HDRcDl-2" value="Ученик" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="155" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nQxW2_KL6_0eO9HDRcDl-3" value="Добавить карточку для запоминания" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="50" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nQxW2_KL6_0eO9HDRcDl-4" value="Открыть карточку" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nQxW2_KL6_0eO9HDRcDl-5" value="Посмотреть перевод" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="240" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nQxW2_KL6_0eO9HDRcDl-6" value="Изменить язык" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="150" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nQxW2_KL6_0eO9HDRcDl-7" value="Выбрать из словаря" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="50" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nQxW2_KL6_0eO9HDRcDl-8" value="Удалить карточку" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="340" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nQxW2_KL6_0eO9HDRcDl-9" value="Посмотреть статистику запоминнания" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="440" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nQxW2_KL6_0eO9HDRcDl-13" value="Преподаватель" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="445" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
