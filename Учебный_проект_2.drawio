@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-11T19:53:21.085Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="2IGBrr3VBwUTgZMWlG7u" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-13T09:42:19.147Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="BO21UAB7EOG0j_IiS4pi" version="20.8.20" type="github">
   <diagram name="Страница 1" id="nUjFrEZ2IgaxzXM1tB5H">
     <mxGraphModel dx="1194" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
         <mxCell id="zRRirbD4NSNAmznf2v_Z-12" value="address" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="620" y="390" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="zRRirbD4NSNAmznf2v_Z-13" value="* address_id&#xa;index&#xa;city&#xa;street&#xa;house&#xa;apartment" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="zRRirbD4NSNAmznf2v_Z-12">
+        <mxCell id="zRRirbD4NSNAmznf2v_Z-13" value="* order_number&#xa;index&#xa;city&#xa;street&#xa;house&#xa;apartment" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="zRRirbD4NSNAmznf2v_Z-12">
           <mxGeometry y="30" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="zRRirbD4NSNAmznf2v_Z-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="zRRirbD4NSNAmznf2v_Z-12" source="zRRirbD4NSNAmznf2v_Z-13" target="zRRirbD4NSNAmznf2v_Z-13">
@@ -36,7 +36,7 @@
             <mxRectangle x="10" y="-1070" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zRRirbD4NSNAmznf2v_Z-16" value="* customer_id&#xa;email&#xa;name&#xa;surname&#xa;patronymic&#xa;phone" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;" vertex="1" parent="zRRirbD4NSNAmznf2v_Z-15">
+        <mxCell id="zRRirbD4NSNAmznf2v_Z-16" value="* order_number&#xa;email&#xa;name&#xa;surname&#xa;patronymic&#xa;phone" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;" vertex="1" parent="zRRirbD4NSNAmznf2v_Z-15">
           <mxGeometry y="30" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="zRRirbD4NSNAmznf2v_Z-17" value="ordered_product" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
@@ -54,7 +54,7 @@
         <mxCell id="zRRirbD4NSNAmznf2v_Z-20" value="order" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="480" y="210" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="zRRirbD4NSNAmznf2v_Z-21" value="* number&#xa;* date&#xa;user&#xa;address&#xa;total_sum&#xa;payment_method&#xa;paid" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="zRRirbD4NSNAmznf2v_Z-20">
+        <mxCell id="zRRirbD4NSNAmznf2v_Z-21" value="* number&#xa;date&#xa;user&#xa;address&#xa;total_sum&#xa;payment_method&#xa;paid" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="zRRirbD4NSNAmznf2v_Z-20">
           <mxGeometry y="30" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="zRRirbD4NSNAmznf2v_Z-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="zRRirbD4NSNAmznf2v_Z-20" source="zRRirbD4NSNAmznf2v_Z-21" target="zRRirbD4NSNAmznf2v_Z-21">
